@@ -17,4 +17,9 @@ while True:
 print(products)
 #存取二維清單方式 products[0][0](第一個清單內的第一個項目)
 
+for p in products:
+	# print(p) #印出商品及價格
+	# print(p[0]) #印出商品
+	print(p[0], '的價格是', p[1])
+
 
